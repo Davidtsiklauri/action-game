@@ -9,7 +9,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: './dist',
+   contentBase: './dist',
    hot: true,
    port: 5000
   },
@@ -30,30 +30,3 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 };
-// const path = require('path');
-
-
-// module.exports = {
-//   entry: {
-//      app: './src/index.ts',
-//   },
- 
-  
-//   output: {
-//     filename: '[name].bundle.js',
-//     path: path.resolve(__dirname, 'dist'),
-//     clean: true,
-//   },
-//   module: {
-//     rules: [
-//       {
-//         test: /\.tsx?$/,
-//         use: 'ts-loader',
-//         exclude: /node_modules/,
-//       },
-//     ],
-//   },
-//   resolve: {
-//     extensions: ['.tsx', '.ts', '.js'],
-//   },
-// };
